@@ -1,71 +1,128 @@
 # 📊 Portfolio Optimization Dashboard
 
-## 🚀 Description
-This project is an interactive financial dashboard that optimizes a stock portfolio using Modern Portfolio Theory.
-
-It helps users:
-- Analyze financial assets
-- Compute risk and returns
-- Optimize portfolio allocation
-- Maximize Sharpe Ratio
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit)
+![Finance](https://img.shields.io/badge/Finance-Quantitative-green?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 ---
 
-## 🧠 Core Idea
+## 🚀 Overview
 
-We maximize risk-adjusted return using:
+This project is a financial dashboard that optimizes stock portfolios using **Modern Portfolio Theory (MPT)**.
+
+The application:
+- Downloads real financial data from Yahoo Finance
+- Computes returns and portfolio risk
+- Calculates covariance matrices
+- Optimizes portfolio allocation
+- Maximizes Sharpe Ratio
+
+---
+
+## 📸 Dashboard Preview
+
+![Dashboard Screenshot](dashboard.png)
+
+---
+
+## 🧠 Financial Mathematics
+
+### Portfolio Return
+
+Rp = Σ wiRi
+
+### Portfolio Volatility
+
+σ = √Var(R)
+
+### Sharpe Ratio Optimization
 
 Sharpe Ratio = (Expected Return - Risk Free Rate) / Volatility
 
 ---
 
-## 📌 Features
+## 📊 Features
 
-- Stock data from Yahoo Finance
-- Portfolio return analysis
-- Risk (volatility & covariance)
-- Monte Carlo optimization
-- Optimal allocation visualization
+✅ Real-time financial data  
+✅ Portfolio optimization  
+✅ Risk-return analysis  
+✅ Monte Carlo simulation  
+✅ Interactive Streamlit dashboard  
+✅ Optimal asset allocation  
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
 - Python
 - Streamlit
-- yFinance
 - NumPy
 - Pandas
 - Matplotlib
+- yFinance
+
+---
+
+## 📂 Project Structure
+
+```bash
+portfolio-optimization/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── src/
+│   ├── portfolio.py
+│   └── optimizer.py
+└── assets/
+```
 
 ---
 
 ## ▶️ Run Locally
 
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/portfolio-optimization.git
+```
+
+Install dependencies:
+
 ```bash
 pip install -r requirements.txt
+```
+
+Run the app:
+
+```bash
 streamlit run app.py
-
-
----
-
-# 💼 What this project becomes (important for your CV)
-
-You can now describe it as:
-
-> “A Streamlit-based portfolio optimization system implementing Modern Portfolio Theory with real market data and Monte Carlo optimization.”
+```
 
 ---
 
-# 🚀 If you want next step
+## 💼 Project Purpose
 
-I can help you upgrade it to **top-tier internship level**:
+This project demonstrates:
+- Quantitative finance concepts
+- Portfolio optimization
+- Financial data analysis
+- Python software engineering
+- Interactive dashboard development
 
-- :contentReference[oaicite:4]{index=4} (very impressive)
-- :contentReference[oaicite:5]{index=5}
-- :contentReference[oaicite:6]{index=6}
-- :contentReference[oaicite:7]{index=7}
-- :contentReference[oaicite:8]{index=8}
+---
 
-Just tell me 👍
-::contentReference[oaicite:3]{index=3}
+## 👨‍💻 Author
+
+### Géraud Ogounchi
+
+MSc Big Data & Data Science Student  
+Interested in:
+- Quantitative Finance
+- Machine Learning
+- Financial Data Science
+- NLP
+
+GitHub:
+https://github.com/YOUR_USERNAME
